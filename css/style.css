@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#hero{
+    
+    height: 100vh;
+    background:rgba(0, 0, 0, 0.7) url(./../img/lee-campbell-DtDlVpy-vvQ-unsplash.jpg) no-repeat center / cover;
+    background-blend-mode: overlay;
+}
+
+.hero-contentn-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+h1{
+    color: white;
+}
+
+.ah-headline.clip .ah-words-wrapper::after {
+    width: 3px;
+    height: 100%;
+    background-color: red;
+  }
+
+.social-list li{
+    list-style-type: none;
+    display: inline-block;
+}
+.social-list li a ion-icon {
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 50%;
+    ;
+}
+
+.social-list li:hover a ion-icon {
+    background:red;
+    
+}
